@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { HomeComponent } from './pages/home/home.component';
 import { SimpleCardComponent } from './components/simple-card/simple-card.component';
+import { ClockModule } from './modules/clock/clock.module';
 
 @NgModule({
   declarations: [
@@ -11,6 +12,7 @@ import { SimpleCardComponent } from './components/simple-card/simple-card.compon
   ],
   imports: [
     BrowserModule,
+    ClockModule
   ],
   providers: [],
   bootstrap: [HomeComponent]
